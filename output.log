@@ -1,0 +1,655 @@
+[info] welcome to sbt 1.11.2 (Homebrew Java 17.0.15)
+[info] loading project definition from /Users/hich/Desktop/Bureau - MacbookAir HICHAM/PRO/GIT/epsi-spark-tp-revision/project
+[info] loading settings for project epsi-spark-tp-revision from build.sbt...
+[info] set current project to epsi-spark-tp-revision (in build file:/Users/hich/Desktop/Bureau%20-%20MacbookAir%20HICHAM/PRO/GIT/epsi-spark-tp-revision/)
+[info] running ScalaApp 
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/06/13 14:24:20 WARN Utils: Your hostname, MacbookAir-HICHAM.local resolves to a loopback address: 127.0.0.1; using 10.60.152.121 instead (on interface en0)
+25/06/13 14:24:20 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+25/06/13 14:24:20 INFO SparkContext: Running Spark version 3.5.0
+25/06/13 14:24:20 INFO SparkContext: OS info Mac OS X, 15.1.1, aarch64
+25/06/13 14:24:20 INFO SparkContext: Java version 17.0.15
+25/06/13 14:24:20 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/06/13 14:24:20 INFO ResourceUtils: ==============================================================
+25/06/13 14:24:20 INFO ResourceUtils: No custom resources configured for spark.driver.
+25/06/13 14:24:20 INFO ResourceUtils: ==============================================================
+25/06/13 14:24:20 INFO SparkContext: Submitted application: TP Spark Scala - Ventes
+25/06/13 14:24:20 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+25/06/13 14:24:20 INFO ResourceProfile: Limiting resource is cpu
+25/06/13 14:24:20 INFO ResourceProfileManager: Added ResourceProfile id: 0
+25/06/13 14:24:20 INFO SecurityManager: Changing view acls to: hich
+25/06/13 14:24:20 INFO SecurityManager: Changing modify acls to: hich
+25/06/13 14:24:20 INFO SecurityManager: Changing view acls groups to: 
+25/06/13 14:24:20 INFO SecurityManager: Changing modify acls groups to: 
+25/06/13 14:24:20 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: hich; groups with view permissions: EMPTY; users with modify permissions: hich; groups with modify permissions: EMPTY
+25/06/13 14:24:20 INFO Utils: Successfully started service 'sparkDriver' on port 64833.
+25/06/13 14:24:20 INFO SparkEnv: Registering MapOutputTracker
+25/06/13 14:24:20 INFO SparkEnv: Registering BlockManagerMaster
+25/06/13 14:24:20 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/06/13 14:24:20 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/06/13 14:24:20 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+25/06/13 14:24:20 INFO DiskBlockManager: Created local directory at /private/var/folders/sp/w9p124nd6jb9srzf94f0v2q80000gn/T/blockmgr-003a3172-77dc-4a27-8970-1924047e6154
+25/06/13 14:24:20 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+25/06/13 14:24:20 INFO SparkEnv: Registering OutputCommitCoordinator
+25/06/13 14:24:20 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+25/06/13 14:24:20 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+25/06/13 14:24:20 INFO Executor: Starting executor ID driver on host 10.60.152.121
+25/06/13 14:24:20 INFO Executor: OS info Mac OS X, 15.1.1, aarch64
+25/06/13 14:24:20 INFO Executor: Java version 17.0.15
+25/06/13 14:24:20 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+25/06/13 14:24:20 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@5e0ee7ce for default.
+25/06/13 14:24:20 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 64835.
+25/06/13 14:24:20 INFO NettyBlockTransferService: Server created on 10.60.152.121:64835
+25/06/13 14:24:20 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/06/13 14:24:20 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.60.152.121, 64835, None)
+25/06/13 14:24:20 INFO BlockManagerMasterEndpoint: Registering block manager 10.60.152.121:64835 with 434.4 MiB RAM, BlockManagerId(driver, 10.60.152.121, 64835, None)
+25/06/13 14:24:20 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.60.152.121, 64835, None)
+25/06/13 14:24:20 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.60.152.121, 64835, None)
+25/06/13 14:24:21 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+25/06/13 14:24:21 INFO SharedState: Warehouse path is 'file:/Users/hich/Desktop/Bureau%20-%20MacbookAir%20HICHAM/PRO/GIT/epsi-spark-tp-revision/spark-warehouse'.
+25/06/13 14:24:21 INFO InMemoryFileIndex: It took 14 ms to list leaf files for 1 paths.
+25/06/13 14:24:21 INFO InMemoryFileIndex: It took 1 ms to list leaf files for 1 paths.
+25/06/13 14:24:22 INFO FileSourceStrategy: Pushed Filters: 
+25/06/13 14:24:22 INFO FileSourceStrategy: Post-Scan Filters: (length(trim(value#0, None)) > 0)
+25/06/13 14:24:22 INFO CodeGenerator: Code generated in 81.550959 ms
+25/06/13 14:24:22 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 376.0 B, free 434.4 MiB)
+25/06/13 14:24:22 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 34.2 KiB, free 434.4 MiB)
+25/06/13 14:24:22 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 10.60.152.121:64835 (size: 34.2 KiB, free: 434.4 MiB)
+25/06/13 14:24:22 INFO SparkContext: Created broadcast 0 from csv at ScalaApp.scala:18
+25/06/13 14:24:22 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+25/06/13 14:24:22 INFO SparkContext: Starting job: csv at ScalaApp.scala:18
+25/06/13 14:24:22 INFO DAGScheduler: Got job 0 (csv at ScalaApp.scala:18) with 1 output partitions
+25/06/13 14:24:22 INFO DAGScheduler: Final stage: ResultStage 0 (csv at ScalaApp.scala:18)
+25/06/13 14:24:22 INFO DAGScheduler: Parents of final stage: List()
+25/06/13 14:24:22 INFO DAGScheduler: Missing parents: List()
+25/06/13 14:24:22 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[3] at csv at ScalaApp.scala:18), which has no missing parents
+25/06/13 14:24:22 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 13.5 KiB, free 434.4 MiB)
+25/06/13 14:24:22 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 6.4 KiB, free 434.3 MiB)
+25/06/13 14:24:22 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 10.60.152.121:64835 (size: 6.4 KiB, free: 434.4 MiB)
+25/06/13 14:24:22 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1580
+25/06/13 14:24:22 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[3] at csv at ScalaApp.scala:18) (first 15 tasks are for partitions Vector(0))
+25/06/13 14:24:22 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+25/06/13 14:24:22 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (10.60.152.121, executor driver, partition 0, PROCESS_LOCAL, 8293 bytes) 
+25/06/13 14:24:22 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+25/06/13 14:24:22 INFO CodeGenerator: Code generated in 6.580333 ms
+25/06/13 14:24:22 INFO FileScanRDD: Reading File path: file:///Users/hich/Desktop/Bureau%20-%20MacbookAir%20HICHAM/PRO/GIT/epsi-spark-tp-revision/data/ventes_fictives.csv, range: 0-6197, partition values: [empty row]
+25/06/13 14:24:22 INFO CodeGenerator: Code generated in 5.154083 ms
+25/06/13 14:24:22 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 1708 bytes result sent to driver
+25/06/13 14:24:22 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 114 ms on 10.60.152.121 (executor driver) (1/1)
+25/06/13 14:24:22 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+25/06/13 14:24:22 INFO DAGScheduler: ResultStage 0 (csv at ScalaApp.scala:18) finished in 0,181 s
+25/06/13 14:24:22 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+25/06/13 14:24:22 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+25/06/13 14:24:22 INFO DAGScheduler: Job 0 finished: csv at ScalaApp.scala:18, took 0,203545 s
+25/06/13 14:24:22 INFO CodeGenerator: Code generated in 5.364458 ms
+25/06/13 14:24:22 INFO FileSourceStrategy: Pushed Filters: 
+25/06/13 14:24:22 INFO FileSourceStrategy: Post-Scan Filters: 
+25/06/13 14:24:22 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 376.0 B, free 434.3 MiB)
+25/06/13 14:24:22 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 34.2 KiB, free 434.3 MiB)
+25/06/13 14:24:22 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 10.60.152.121:64835 (size: 34.2 KiB, free: 434.3 MiB)
+25/06/13 14:24:22 INFO SparkContext: Created broadcast 2 from csv at ScalaApp.scala:18
+25/06/13 14:24:22 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+25/06/13 14:24:22 INFO SparkContext: Starting job: csv at ScalaApp.scala:18
+25/06/13 14:24:22 INFO DAGScheduler: Got job 1 (csv at ScalaApp.scala:18) with 1 output partitions
+25/06/13 14:24:22 INFO DAGScheduler: Final stage: ResultStage 1 (csv at ScalaApp.scala:18)
+25/06/13 14:24:22 INFO DAGScheduler: Parents of final stage: List()
+25/06/13 14:24:22 INFO DAGScheduler: Missing parents: List()
+25/06/13 14:24:22 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[9] at csv at ScalaApp.scala:18), which has no missing parents
+25/06/13 14:24:22 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 27.3 KiB, free 434.3 MiB)
+25/06/13 14:24:22 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 12.6 KiB, free 434.3 MiB)
+25/06/13 14:24:22 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 10.60.152.121:64835 (size: 12.6 KiB, free: 434.3 MiB)
+25/06/13 14:24:22 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1580
+25/06/13 14:24:22 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[9] at csv at ScalaApp.scala:18) (first 15 tasks are for partitions Vector(0))
+25/06/13 14:24:22 INFO TaskSchedulerImpl: Adding task set 1.0 with 1 tasks resource profile 0
+25/06/13 14:24:22 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1) (10.60.152.121, executor driver, partition 0, PROCESS_LOCAL, 8293 bytes) 
+25/06/13 14:24:22 INFO Executor: Running task 0.0 in stage 1.0 (TID 1)
+25/06/13 14:24:22 INFO CodeGenerator: Code generated in 3.071708 ms
+25/06/13 14:24:22 INFO FileScanRDD: Reading File path: file:///Users/hich/Desktop/Bureau%20-%20MacbookAir%20HICHAM/PRO/GIT/epsi-spark-tp-revision/data/ventes_fictives.csv, range: 0-6197, partition values: [empty row]
+25/06/13 14:24:22 INFO Executor: Finished task 0.0 in stage 1.0 (TID 1). 1704 bytes result sent to driver
+25/06/13 14:24:22 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 43 ms on 10.60.152.121 (executor driver) (1/1)
+25/06/13 14:24:22 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+25/06/13 14:24:22 INFO DAGScheduler: ResultStage 1 (csv at ScalaApp.scala:18) finished in 0,059 s
+25/06/13 14:24:22 INFO DAGScheduler: Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
+25/06/13 14:24:22 INFO TaskSchedulerImpl: Killing all running tasks in stage 1: Stage finished
+25/06/13 14:24:22 INFO DAGScheduler: Job 1 finished: csv at ScalaApp.scala:18, took 0,062557 s
+--- Original DataFrame ---
+25/06/13 14:24:22 INFO FileSourceStrategy: Pushed Filters: 
+25/06/13 14:24:22 INFO FileSourceStrategy: Post-Scan Filters: 
+25/06/13 14:24:22 INFO CodeGenerator: Code generated in 9.390792 ms
+25/06/13 14:24:22 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 376.0 B, free 434.3 MiB)
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 34.3 KiB, free 434.2 MiB)
+25/06/13 14:24:23 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on 10.60.152.121:64835 (size: 34.3 KiB, free: 434.3 MiB)
+25/06/13 14:24:23 INFO SparkContext: Created broadcast 4 from show at ScalaApp.scala:21
+25/06/13 14:24:23 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+25/06/13 14:24:23 INFO SparkContext: Starting job: show at ScalaApp.scala:21
+25/06/13 14:24:23 INFO DAGScheduler: Got job 2 (show at ScalaApp.scala:21) with 1 output partitions
+25/06/13 14:24:23 INFO DAGScheduler: Final stage: ResultStage 2 (show at ScalaApp.scala:21)
+25/06/13 14:24:23 INFO DAGScheduler: Parents of final stage: List()
+25/06/13 14:24:23 INFO DAGScheduler: Missing parents: List()
+25/06/13 14:24:23 INFO DAGScheduler: Submitting ResultStage 2 (MapPartitionsRDD[13] at show at ScalaApp.scala:21), which has no missing parents
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 19.4 KiB, free 434.2 MiB)
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 8.7 KiB, free 434.2 MiB)
+25/06/13 14:24:23 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on 10.60.152.121:64835 (size: 8.7 KiB, free: 434.3 MiB)
+25/06/13 14:24:23 INFO SparkContext: Created broadcast 5 from broadcast at DAGScheduler.scala:1580
+25/06/13 14:24:23 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 2 (MapPartitionsRDD[13] at show at ScalaApp.scala:21) (first 15 tasks are for partitions Vector(0))
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Adding task set 2.0 with 1 tasks resource profile 0
+25/06/13 14:24:23 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 2) (10.60.152.121, executor driver, partition 0, PROCESS_LOCAL, 8293 bytes) 
+25/06/13 14:24:23 INFO Executor: Running task 0.0 in stage 2.0 (TID 2)
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 15.036666 ms
+25/06/13 14:24:23 INFO FileScanRDD: Reading File path: file:///Users/hich/Desktop/Bureau%20-%20MacbookAir%20HICHAM/PRO/GIT/epsi-spark-tp-revision/data/ventes_fictives.csv, range: 0-6197, partition values: [empty row]
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 7.988209 ms
+25/06/13 14:24:23 INFO Executor: Finished task 0.0 in stage 2.0 (TID 2). 2030 bytes result sent to driver
+25/06/13 14:24:23 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 2) in 46 ms on 10.60.152.121 (executor driver) (1/1)
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+25/06/13 14:24:23 INFO DAGScheduler: ResultStage 2 (show at ScalaApp.scala:21) finished in 0,060 s
+25/06/13 14:24:23 INFO DAGScheduler: Job 2 is finished. Cancelling potential speculative or zombie tasks for this job
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Killing all running tasks in stage 2: Stage finished
+25/06/13 14:24:23 INFO DAGScheduler: Job 2 finished: show at ScalaApp.scala:21, took 0,062068 s
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 7.369334 ms
++--------------+----------+------------+------------+--------+-------------+------------+------+---------+
+|ID_Transaction|      Date|     Produit|   Catégorie|Quantité|Prix_Unitaire|Revenu_Total|Région|Client_ID|
++--------------+----------+------------+------------+--------+-------------+------------+------+---------+
+|             1|2024-01-01|    Laptop A|Électronique|       5|       1200.0|      6000.0|  Nord|      101|
+|             2|2024-01-02|    Souris B|Électronique|      20|         25.0|       500.0|   Sud|      102|
+|             3|2024-01-03|   Clavier C|Électronique|      10|         75.0|       750.0|   Est|      103|
+|             4|2024-01-04|  Moniteur D|Électronique|       3|        300.0|       900.0| Ouest|      104|
+|             5|2024-01-05|Smartphone E|Électronique|       8|        800.0|      6400.0|  Nord|      105|
++--------------+----------+------------+------------+--------+-------------+------------+------+---------+
+only showing top 5 rows
+
+--- DataFrame Schema ---
+root
+ |-- ID_Transaction: integer (nullable = true)
+ |-- Date: date (nullable = true)
+ |-- Produit: string (nullable = true)
+ |-- Catégorie: string (nullable = true)
+ |-- Quantité: integer (nullable = true)
+ |-- Prix_Unitaire: double (nullable = true)
+ |-- Revenu_Total: double (nullable = true)
+ |-- Région: string (nullable = true)
+ |-- Client_ID: integer (nullable = true)
+
+--- Filtered DataFrame (Quantité > 30) ---
+25/06/13 14:24:23 INFO FileSourceStrategy: Pushed Filters: IsNotNull(Quantité),GreaterThan(Quantité,30)
+25/06/13 14:24:23 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(Quantité#21),(Quantité#21 > 30)
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 7.958708 ms
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 376.0 B, free 434.2 MiB)
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 34.3 KiB, free 434.2 MiB)
+25/06/13 14:24:23 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on 10.60.152.121:64835 (size: 34.3 KiB, free: 434.2 MiB)
+25/06/13 14:24:23 INFO SparkContext: Created broadcast 6 from show at ScalaApp.scala:30
+25/06/13 14:24:23 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+25/06/13 14:24:23 INFO SparkContext: Starting job: show at ScalaApp.scala:30
+25/06/13 14:24:23 INFO DAGScheduler: Got job 3 (show at ScalaApp.scala:30) with 1 output partitions
+25/06/13 14:24:23 INFO DAGScheduler: Final stage: ResultStage 3 (show at ScalaApp.scala:30)
+25/06/13 14:24:23 INFO DAGScheduler: Parents of final stage: List()
+25/06/13 14:24:23 INFO DAGScheduler: Missing parents: List()
+25/06/13 14:24:23 INFO DAGScheduler: Submitting ResultStage 3 (MapPartitionsRDD[17] at show at ScalaApp.scala:30), which has no missing parents
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_7 stored as values in memory (estimated size 20.0 KiB, free 434.2 MiB)
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in memory (estimated size 8.9 KiB, free 434.2 MiB)
+25/06/13 14:24:23 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on 10.60.152.121:64835 (size: 8.9 KiB, free: 434.2 MiB)
+25/06/13 14:24:23 INFO SparkContext: Created broadcast 7 from broadcast at DAGScheduler.scala:1580
+25/06/13 14:24:23 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 3 (MapPartitionsRDD[17] at show at ScalaApp.scala:30) (first 15 tasks are for partitions Vector(0))
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Adding task set 3.0 with 1 tasks resource profile 0
+25/06/13 14:24:23 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 3) (10.60.152.121, executor driver, partition 0, PROCESS_LOCAL, 8293 bytes) 
+25/06/13 14:24:23 INFO Executor: Running task 0.0 in stage 3.0 (TID 3)
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 7.800334 ms
+25/06/13 14:24:23 INFO FileScanRDD: Reading File path: file:///Users/hich/Desktop/Bureau%20-%20MacbookAir%20HICHAM/PRO/GIT/epsi-spark-tp-revision/data/ventes_fictives.csv, range: 0-6197, partition values: [empty row]
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 3.647709 ms
+25/06/13 14:24:23 INFO Executor: Finished task 0.0 in stage 3.0 (TID 3). 3128 bytes result sent to driver
+25/06/13 14:24:23 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 3) in 31 ms on 10.60.152.121 (executor driver) (1/1)
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool 
+25/06/13 14:24:23 INFO DAGScheduler: ResultStage 3 (show at ScalaApp.scala:30) finished in 0,039 s
+25/06/13 14:24:23 INFO DAGScheduler: Job 3 is finished. Cancelling potential speculative or zombie tasks for this job
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Killing all running tasks in stage 3: Stage finished
+25/06/13 14:24:23 INFO DAGScheduler: Job 3 finished: show at ScalaApp.scala:30, took 0,040496 s
++--------------+----------+------------------+------------+--------+-------------+------------+------+---------+
+|ID_Transaction|      Date|           Produit|   Catégorie|Quantité|Prix_Unitaire|Revenu_Total|Région|Client_ID|
++--------------+----------+------------------+------------+--------+-------------+------------+------+---------+
+|            11|2024-01-11|  Livre de Cuisine|      Livres|      50|         15.0|       750.0|   Est|      111|
+|            22|2024-01-22|         T-shirt R|   Vêtements|      40|         12.0|       480.0|   Sud|      122|
+|            24|2024-01-24|          Lait UHT|Alimentation|     100|          1.5|       150.0| Ouest|      124|
+|            25|2024-01-25|       Pain de Mie|Alimentation|      50|          2.0|       100.0|  Nord|      125|
+|            28|2024-01-28|             Chips|Alimentation|      60|          2.5|       150.0| Ouest|      128|
+|            41|2024-02-11|  Livre d'Histoire|      Livres|      40|         18.0|       720.0|  Nord|      141|
+|            52|2024-03-02| Chargeur Portable|Électronique|      40|         15.0|       600.0|   Sud|      102|
+|            53|2024-03-03|         Câble USB|Électronique|      50|          5.0|       250.0|   Est|      103|
+|            57|2024-03-07|Livre pour Enfants|      Livres|      50|         10.0|       500.0|   Est|      107|
+|            65|2024-03-15|       Chaussettes|   Vêtements|     100|          5.0|       500.0|   Est|      115|
+|            67|2024-03-17|      Céréales Bio|Alimentation|      70|          3.5|       245.0|  Nord|      117|
+|            68|2024-03-18|     Yaourt Nature|Alimentation|     120|          1.0|       120.0|   Sud|      118|
+|            69|2024-03-19|             Pâtes|Alimentation|      80|          1.8|       144.0|   Est|      119|
+|            70|2024-03-20|               Riz|Alimentation|      90|          2.2|       198.0| Ouest|      120|
+|            81|2024-04-07|                BD|      Livres|      40|         15.0|       600.0|   Est|      131|
+|            82|2024-04-08|          Magazine|      Livres|      60|          5.0|       300.0| Ouest|      132|
+|            93|2024-04-19|            Jambon|Alimentation|      50|          5.0|       250.0|   Est|      143|
+|            94|2024-04-20|           Fromage|Alimentation|      40|          6.0|       240.0| Ouest|      144|
+|            95|2024-04-21|             Oeufs|Alimentation|      80|          3.0|       240.0|  Nord|      145|
+|            96|2024-04-22|            Pommes|Alimentation|     100|          2.0|       200.0|   Sud|      146|
++--------------+----------+------------------+------------+--------+-------------+------------+------+---------+
+only showing top 20 rows
+
+--- Aggregated DataFrame (Total Revenue by Region) ---
+25/06/13 14:24:23 INFO FileSourceStrategy: Pushed Filters: 
+25/06/13 14:24:23 INFO FileSourceStrategy: Post-Scan Filters: 
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 42.002042 ms
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_8 stored as values in memory (estimated size 376.0 B, free 434.2 MiB)
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_8_piece0 stored as bytes in memory (estimated size 34.3 KiB, free 434.1 MiB)
+25/06/13 14:24:23 INFO BlockManagerInfo: Added broadcast_8_piece0 in memory on 10.60.152.121:64835 (size: 34.3 KiB, free: 434.2 MiB)
+25/06/13 14:24:23 INFO SparkContext: Created broadcast 8 from show at ScalaApp.scala:38
+25/06/13 14:24:23 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+25/06/13 14:24:23 INFO DAGScheduler: Registering RDD 21 (show at ScalaApp.scala:38) as input to shuffle 0
+25/06/13 14:24:23 INFO DAGScheduler: Got map stage job 4 (show at ScalaApp.scala:38) with 1 output partitions
+25/06/13 14:24:23 INFO DAGScheduler: Final stage: ShuffleMapStage 4 (show at ScalaApp.scala:38)
+25/06/13 14:24:23 INFO DAGScheduler: Parents of final stage: List()
+25/06/13 14:24:23 INFO DAGScheduler: Missing parents: List()
+25/06/13 14:24:23 INFO DAGScheduler: Submitting ShuffleMapStage 4 (MapPartitionsRDD[21] at show at ScalaApp.scala:38), which has no missing parents
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_9 stored as values in memory (estimated size 41.3 KiB, free 434.1 MiB)
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_9_piece0 stored as bytes in memory (estimated size 19.3 KiB, free 434.1 MiB)
+25/06/13 14:24:23 INFO BlockManagerInfo: Added broadcast_9_piece0 in memory on 10.60.152.121:64835 (size: 19.3 KiB, free: 434.2 MiB)
+25/06/13 14:24:23 INFO SparkContext: Created broadcast 9 from broadcast at DAGScheduler.scala:1580
+25/06/13 14:24:23 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 4 (MapPartitionsRDD[21] at show at ScalaApp.scala:38) (first 15 tasks are for partitions Vector(0))
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Adding task set 4.0 with 1 tasks resource profile 0
+25/06/13 14:24:23 INFO TaskSetManager: Starting task 0.0 in stage 4.0 (TID 4) (10.60.152.121, executor driver, partition 0, PROCESS_LOCAL, 8282 bytes) 
+25/06/13 14:24:23 INFO Executor: Running task 0.0 in stage 4.0 (TID 4)
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 16.114667 ms
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 4.874417 ms
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 1.968125 ms
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 6.121334 ms
+25/06/13 14:24:23 INFO FileScanRDD: Reading File path: file:///Users/hich/Desktop/Bureau%20-%20MacbookAir%20HICHAM/PRO/GIT/epsi-spark-tp-revision/data/ventes_fictives.csv, range: 0-6197, partition values: [empty row]
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 2.436917 ms
+25/06/13 14:24:23 INFO Executor: Finished task 0.0 in stage 4.0 (TID 4). 2723 bytes result sent to driver
+25/06/13 14:24:23 INFO TaskSetManager: Finished task 0.0 in stage 4.0 (TID 4) in 78 ms on 10.60.152.121 (executor driver) (1/1)
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Removed TaskSet 4.0, whose tasks have all completed, from pool 
+25/06/13 14:24:23 INFO DAGScheduler: ShuffleMapStage 4 (show at ScalaApp.scala:38) finished in 0,085 s
+25/06/13 14:24:23 INFO DAGScheduler: looking for newly runnable stages
+25/06/13 14:24:23 INFO DAGScheduler: running: Set()
+25/06/13 14:24:23 INFO DAGScheduler: waiting: Set()
+25/06/13 14:24:23 INFO DAGScheduler: failed: Set()
+25/06/13 14:24:23 INFO ShufflePartitionsUtil: For shuffle(0), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 6.515792 ms
+25/06/13 14:24:23 INFO HashAggregateExec: spark.sql.codegen.aggregate.map.twolevel.enabled is set to true, but current version of codegened fast hashmap does not support this aggregate.
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 5.678166 ms
+25/06/13 14:24:23 INFO SparkContext: Starting job: show at ScalaApp.scala:38
+25/06/13 14:24:23 INFO DAGScheduler: Got job 5 (show at ScalaApp.scala:38) with 1 output partitions
+25/06/13 14:24:23 INFO DAGScheduler: Final stage: ResultStage 6 (show at ScalaApp.scala:38)
+25/06/13 14:24:23 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 5)
+25/06/13 14:24:23 INFO DAGScheduler: Missing parents: List()
+25/06/13 14:24:23 INFO DAGScheduler: Submitting ResultStage 6 (MapPartitionsRDD[25] at show at ScalaApp.scala:38), which has no missing parents
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_10 stored as values in memory (estimated size 44.7 KiB, free 434.0 MiB)
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_10_piece0 stored as bytes in memory (estimated size 20.9 KiB, free 434.0 MiB)
+25/06/13 14:24:23 INFO BlockManagerInfo: Added broadcast_10_piece0 in memory on 10.60.152.121:64835 (size: 20.9 KiB, free: 434.2 MiB)
+25/06/13 14:24:23 INFO SparkContext: Created broadcast 10 from broadcast at DAGScheduler.scala:1580
+25/06/13 14:24:23 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 6 (MapPartitionsRDD[25] at show at ScalaApp.scala:38) (first 15 tasks are for partitions Vector(0))
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Adding task set 6.0 with 1 tasks resource profile 0
+25/06/13 14:24:23 INFO TaskSetManager: Starting task 0.0 in stage 6.0 (TID 5) (10.60.152.121, executor driver, partition 0, NODE_LOCAL, 7615 bytes) 
+25/06/13 14:24:23 INFO Executor: Running task 0.0 in stage 6.0 (TID 5)
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 4.0515 ms
+25/06/13 14:24:23 INFO ShuffleBlockFetcherIterator: Getting 1 (288.0 B) non-empty blocks including 1 (288.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+25/06/13 14:24:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 3 ms
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 6.975958 ms
+25/06/13 14:24:23 INFO Executor: Finished task 0.0 in stage 6.0 (TID 5). 5265 bytes result sent to driver
+25/06/13 14:24:23 INFO TaskSetManager: Finished task 0.0 in stage 6.0 (TID 5) in 44 ms on 10.60.152.121 (executor driver) (1/1)
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Removed TaskSet 6.0, whose tasks have all completed, from pool 
+25/06/13 14:24:23 INFO DAGScheduler: ResultStage 6 (show at ScalaApp.scala:38) finished in 0,049 s
+25/06/13 14:24:23 INFO DAGScheduler: Job 5 is finished. Cancelling potential speculative or zombie tasks for this job
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Killing all running tasks in stage 6: Stage finished
+25/06/13 14:24:23 INFO DAGScheduler: Job 5 finished: show at ScalaApp.scala:38, took 0,054105 s
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 2.70625 ms
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 2.061125 ms
++------+-----------------------+
+|Région|Revenu_Total_Par_Region|
++------+-----------------------+
+|  Nord|                24365.0|
+|   Sud|                13235.0|
+|   Est|                10506.0|
+| Ouest|                10303.0|
++------+-----------------------+
+
+25/06/13 14:24:23 INFO FileSourceStrategy: Pushed Filters: 
+25/06/13 14:24:23 INFO FileSourceStrategy: Post-Scan Filters: 
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_11 stored as values in memory (estimated size 376.0 B, free 434.0 MiB)
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_11_piece0 stored as bytes in memory (estimated size 34.3 KiB, free 434.0 MiB)
+25/06/13 14:24:23 INFO BlockManagerInfo: Added broadcast_11_piece0 in memory on 10.60.152.121:64835 (size: 34.3 KiB, free: 434.1 MiB)
+25/06/13 14:24:23 INFO SparkContext: Created broadcast 11 from parquet at ScalaApp.scala:42
+25/06/13 14:24:23 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+25/06/13 14:24:23 INFO DAGScheduler: Registering RDD 29 (parquet at ScalaApp.scala:42) as input to shuffle 1
+25/06/13 14:24:23 INFO DAGScheduler: Got map stage job 6 (parquet at ScalaApp.scala:42) with 1 output partitions
+25/06/13 14:24:23 INFO DAGScheduler: Final stage: ShuffleMapStage 7 (parquet at ScalaApp.scala:42)
+25/06/13 14:24:23 INFO DAGScheduler: Parents of final stage: List()
+25/06/13 14:24:23 INFO DAGScheduler: Missing parents: List()
+25/06/13 14:24:23 INFO DAGScheduler: Submitting ShuffleMapStage 7 (MapPartitionsRDD[29] at parquet at ScalaApp.scala:42), which has no missing parents
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_12 stored as values in memory (estimated size 41.5 KiB, free 433.9 MiB)
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_12_piece0 stored as bytes in memory (estimated size 19.3 KiB, free 433.9 MiB)
+25/06/13 14:24:23 INFO BlockManagerInfo: Added broadcast_12_piece0 in memory on 10.60.152.121:64835 (size: 19.3 KiB, free: 434.1 MiB)
+25/06/13 14:24:23 INFO SparkContext: Created broadcast 12 from broadcast at DAGScheduler.scala:1580
+25/06/13 14:24:23 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 7 (MapPartitionsRDD[29] at parquet at ScalaApp.scala:42) (first 15 tasks are for partitions Vector(0))
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Adding task set 7.0 with 1 tasks resource profile 0
+25/06/13 14:24:23 INFO TaskSetManager: Starting task 0.0 in stage 7.0 (TID 6) (10.60.152.121, executor driver, partition 0, PROCESS_LOCAL, 8282 bytes) 
+25/06/13 14:24:23 INFO Executor: Running task 0.0 in stage 7.0 (TID 6)
+25/06/13 14:24:23 INFO FileScanRDD: Reading File path: file:///Users/hich/Desktop/Bureau%20-%20MacbookAir%20HICHAM/PRO/GIT/epsi-spark-tp-revision/data/ventes_fictives.csv, range: 0-6197, partition values: [empty row]
+25/06/13 14:24:23 INFO Executor: Finished task 0.0 in stage 7.0 (TID 6). 2723 bytes result sent to driver
+25/06/13 14:24:23 INFO TaskSetManager: Finished task 0.0 in stage 7.0 (TID 6) in 16 ms on 10.60.152.121 (executor driver) (1/1)
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Removed TaskSet 7.0, whose tasks have all completed, from pool 
+25/06/13 14:24:23 INFO DAGScheduler: ShuffleMapStage 7 (parquet at ScalaApp.scala:42) finished in 0,019 s
+25/06/13 14:24:23 INFO DAGScheduler: looking for newly runnable stages
+25/06/13 14:24:23 INFO DAGScheduler: running: Set()
+25/06/13 14:24:23 INFO DAGScheduler: waiting: Set()
+25/06/13 14:24:23 INFO DAGScheduler: failed: Set()
+25/06/13 14:24:23 INFO ShufflePartitionsUtil: For shuffle(1), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+25/06/13 14:24:23 INFO HashAggregateExec: spark.sql.codegen.aggregate.map.twolevel.enabled is set to true, but current version of codegened fast hashmap does not support this aggregate.
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 4.020834 ms
+25/06/13 14:24:23 INFO SparkContext: Starting job: parquet at ScalaApp.scala:42
+25/06/13 14:24:23 INFO DAGScheduler: Got job 7 (parquet at ScalaApp.scala:42) with 1 output partitions
+25/06/13 14:24:23 INFO DAGScheduler: Final stage: ResultStage 9 (parquet at ScalaApp.scala:42)
+25/06/13 14:24:23 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 8)
+25/06/13 14:24:23 INFO DAGScheduler: Missing parents: List()
+25/06/13 14:24:23 INFO DAGScheduler: Submitting ResultStage 9 (MapPartitionsRDD[34] at parquet at ScalaApp.scala:42), which has no missing parents
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_13 stored as values in memory (estimated size 44.8 KiB, free 433.9 MiB)
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_13_piece0 stored as bytes in memory (estimated size 21.0 KiB, free 433.8 MiB)
+25/06/13 14:24:23 INFO BlockManagerInfo: Added broadcast_13_piece0 in memory on 10.60.152.121:64835 (size: 21.0 KiB, free: 434.1 MiB)
+25/06/13 14:24:23 INFO SparkContext: Created broadcast 13 from broadcast at DAGScheduler.scala:1580
+25/06/13 14:24:23 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 9 (MapPartitionsRDD[34] at parquet at ScalaApp.scala:42) (first 15 tasks are for partitions Vector(0))
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Adding task set 9.0 with 1 tasks resource profile 0
+25/06/13 14:24:23 INFO TaskSetManager: Starting task 0.0 in stage 9.0 (TID 7) (10.60.152.121, executor driver, partition 0, NODE_LOCAL, 7615 bytes) 
+25/06/13 14:24:23 INFO Executor: Running task 0.0 in stage 9.0 (TID 7)
+25/06/13 14:24:23 INFO ShuffleBlockFetcherIterator: Getting 1 (288.0 B) non-empty blocks including 1 (288.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+25/06/13 14:24:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 2.058041 ms
+25/06/13 14:24:23 INFO Executor: Finished task 0.0 in stage 9.0 (TID 7). 5357 bytes result sent to driver
+25/06/13 14:24:23 INFO TaskSetManager: Finished task 0.0 in stage 9.0 (TID 7) in 11 ms on 10.60.152.121 (executor driver) (1/1)
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Removed TaskSet 9.0, whose tasks have all completed, from pool 
+25/06/13 14:24:23 INFO DAGScheduler: ResultStage 9 (parquet at ScalaApp.scala:42) finished in 0,024 s
+25/06/13 14:24:23 INFO DAGScheduler: Job 7 is finished. Cancelling potential speculative or zombie tasks for this job
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Killing all running tasks in stage 9: Stage finished
+25/06/13 14:24:23 INFO DAGScheduler: Job 7 finished: parquet at ScalaApp.scala:42, took 0,026894 s
+25/06/13 14:24:23 INFO DAGScheduler: Registering RDD 35 (parquet at ScalaApp.scala:42) as input to shuffle 2
+25/06/13 14:24:23 INFO DAGScheduler: Got map stage job 8 (parquet at ScalaApp.scala:42) with 1 output partitions
+25/06/13 14:24:23 INFO DAGScheduler: Final stage: ShuffleMapStage 11 (parquet at ScalaApp.scala:42)
+25/06/13 14:24:23 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 10)
+25/06/13 14:24:23 INFO DAGScheduler: Missing parents: List()
+25/06/13 14:24:23 INFO DAGScheduler: Submitting ShuffleMapStage 11 (MapPartitionsRDD[35] at parquet at ScalaApp.scala:42), which has no missing parents
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_14 stored as values in memory (estimated size 45.2 KiB, free 433.8 MiB)
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_14_piece0 stored as bytes in memory (estimated size 21.3 KiB, free 433.8 MiB)
+25/06/13 14:24:23 INFO BlockManagerInfo: Added broadcast_14_piece0 in memory on 10.60.152.121:64835 (size: 21.3 KiB, free: 434.1 MiB)
+25/06/13 14:24:23 INFO SparkContext: Created broadcast 14 from broadcast at DAGScheduler.scala:1580
+25/06/13 14:24:23 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 11 (MapPartitionsRDD[35] at parquet at ScalaApp.scala:42) (first 15 tasks are for partitions Vector(0))
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Adding task set 11.0 with 1 tasks resource profile 0
+25/06/13 14:24:23 INFO TaskSetManager: Starting task 0.0 in stage 11.0 (TID 8) (10.60.152.121, executor driver, partition 0, NODE_LOCAL, 7604 bytes) 
+25/06/13 14:24:23 INFO Executor: Running task 0.0 in stage 11.0 (TID 8)
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 3.286958 ms
+25/06/13 14:24:23 INFO ShuffleBlockFetcherIterator: Getting 1 (288.0 B) non-empty blocks including 1 (288.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+25/06/13 14:24:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+25/06/13 14:24:23 INFO Executor: Finished task 0.0 in stage 11.0 (TID 8). 5263 bytes result sent to driver
+25/06/13 14:24:23 INFO TaskSetManager: Finished task 0.0 in stage 11.0 (TID 8) in 14 ms on 10.60.152.121 (executor driver) (1/1)
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Removed TaskSet 11.0, whose tasks have all completed, from pool 
+25/06/13 14:24:23 INFO DAGScheduler: ShuffleMapStage 11 (parquet at ScalaApp.scala:42) finished in 0,018 s
+25/06/13 14:24:23 INFO DAGScheduler: looking for newly runnable stages
+25/06/13 14:24:23 INFO DAGScheduler: running: Set()
+25/06/13 14:24:23 INFO DAGScheduler: waiting: Set()
+25/06/13 14:24:23 INFO DAGScheduler: failed: Set()
+25/06/13 14:24:23 INFO ShufflePartitionsUtil: For shuffle(2), advisory target size: 67108864, actual target size 1048576, minimum partition size: 1048576
+25/06/13 14:24:23 INFO ParquetUtils: Using default output committer for Parquet: org.apache.parquet.hadoop.ParquetOutputCommitter
+25/06/13 14:24:23 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+25/06/13 14:24:23 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+25/06/13 14:24:23 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+25/06/13 14:24:23 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+25/06/13 14:24:23 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+25/06/13 14:24:23 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 4.427208 ms
+25/06/13 14:24:23 INFO SparkContext: Starting job: parquet at ScalaApp.scala:42
+25/06/13 14:24:23 INFO DAGScheduler: Got job 9 (parquet at ScalaApp.scala:42) with 1 output partitions
+25/06/13 14:24:23 INFO DAGScheduler: Final stage: ResultStage 14 (parquet at ScalaApp.scala:42)
+25/06/13 14:24:23 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 13)
+25/06/13 14:24:23 INFO DAGScheduler: Missing parents: List()
+25/06/13 14:24:23 INFO DAGScheduler: Submitting ResultStage 14 (MapPartitionsRDD[38] at parquet at ScalaApp.scala:42), which has no missing parents
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_15 stored as values in memory (estimated size 241.8 KiB, free 433.5 MiB)
+25/06/13 14:24:23 INFO MemoryStore: Block broadcast_15_piece0 stored as bytes in memory (estimated size 90.4 KiB, free 433.4 MiB)
+25/06/13 14:24:23 INFO BlockManagerInfo: Added broadcast_15_piece0 in memory on 10.60.152.121:64835 (size: 90.4 KiB, free: 434.0 MiB)
+25/06/13 14:24:23 INFO SparkContext: Created broadcast 15 from broadcast at DAGScheduler.scala:1580
+25/06/13 14:24:23 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 14 (MapPartitionsRDD[38] at parquet at ScalaApp.scala:42) (first 15 tasks are for partitions Vector(0))
+25/06/13 14:24:23 INFO TaskSchedulerImpl: Adding task set 14.0 with 1 tasks resource profile 0
+25/06/13 14:24:23 INFO TaskSetManager: Starting task 0.0 in stage 14.0 (TID 9) (10.60.152.121, executor driver, partition 0, NODE_LOCAL, 7615 bytes) 
+25/06/13 14:24:23 INFO Executor: Running task 0.0 in stage 14.0 (TID 9)
+25/06/13 14:24:23 INFO ShuffleBlockFetcherIterator: Getting 1 (288.0 B) non-empty blocks including 1 (288.0 B) local and 0 (0.0 B) host-local and 0 (0.0 B) push-merged-local and 0 (0.0 B) remote blocks
+25/06/13 14:24:23 INFO ShuffleBlockFetcherIterator: Started 0 remote fetches in 0 ms
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 3.089708 ms
+25/06/13 14:24:23 INFO CodeGenerator: Code generated in 3.478959 ms
+25/06/13 14:24:23 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+25/06/13 14:24:23 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+25/06/13 14:24:23 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+25/06/13 14:24:23 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+25/06/13 14:24:23 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+25/06/13 14:24:23 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+25/06/13 14:24:23 INFO CodecConfig: Compression: SNAPPY
+25/06/13 14:24:23 INFO CodecConfig: Compression: SNAPPY
+25/06/13 14:24:23 INFO ParquetOutputFormat: ParquetRecordWriter [block size: 134217728b, row group padding size: 8388608b, validating: false]
+25/06/13 14:24:23 INFO ParquetWriteSupport: Initialized Parquet WriteSupport with Catalyst schema:
+{
+  "type" : "struct",
+  "fields" : [ {
+    "name" : "Région",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "Revenu_Total_Par_Region",
+    "type" : "double",
+    "nullable" : true,
+    "metadata" : { }
+  } ]
+}
+and corresponding Parquet message type:
+message spark_schema {
+  optional binary Région (STRING);
+  optional double Revenu_Total_Par_Region;
+}
+
+       
+25/06/13 14:24:23 INFO CodecPool: Got brand-new compressor [.snappy]
+25/06/13 14:24:24 INFO FileOutputCommitter: Saved output of task 'attempt_202506131424234459900233510137141_0014_m_000000_9' to file:/Users/hich/Desktop/Bureau - MacbookAir HICHAM/PRO/GIT/epsi-spark-tp-revision/output/ventes_par_region/_temporary/0/task_202506131424234459900233510137141_0014_m_000000
+25/06/13 14:24:24 INFO SparkHadoopMapRedUtil: attempt_202506131424234459900233510137141_0014_m_000000_9: Committed. Elapsed time: 0 ms.
+25/06/13 14:24:24 INFO Executor: Finished task 0.0 in stage 14.0 (TID 9). 7563 bytes result sent to driver
+25/06/13 14:24:24 INFO TaskSetManager: Finished task 0.0 in stage 14.0 (TID 9) in 405 ms on 10.60.152.121 (executor driver) (1/1)
+25/06/13 14:24:24 INFO TaskSchedulerImpl: Removed TaskSet 14.0, whose tasks have all completed, from pool 
+25/06/13 14:24:24 INFO DAGScheduler: ResultStage 14 (parquet at ScalaApp.scala:42) finished in 0,422 s
+25/06/13 14:24:24 INFO DAGScheduler: Job 9 is finished. Cancelling potential speculative or zombie tasks for this job
+25/06/13 14:24:24 INFO TaskSchedulerImpl: Killing all running tasks in stage 14: Stage finished
+25/06/13 14:24:24 INFO DAGScheduler: Job 9 finished: parquet at ScalaApp.scala:42, took 0,423988 s
+25/06/13 14:24:24 INFO FileFormatWriter: Start to commit write Job 8fd48e7b-748a-4933-a510-edfbd68abf4a.
+25/06/13 14:24:24 INFO FileFormatWriter: Write Job 8fd48e7b-748a-4933-a510-edfbd68abf4a committed. Elapsed time: 13 ms.
+25/06/13 14:24:24 INFO FileFormatWriter: Finished processing stats for write job 8fd48e7b-748a-4933-a510-edfbd68abf4a.
+Aggregated DataFrame saved in Parquet format at: output/ventes_par_region
+25/06/13 14:24:24 INFO FileSourceStrategy: Pushed Filters: IsNotNull(Quantité),GreaterThan(Quantité,30)
+25/06/13 14:24:24 INFO FileSourceStrategy: Post-Scan Filters: isnotnull(Quantité#21),(Quantité#21 > 30)
+25/06/13 14:24:24 INFO ParquetUtils: Using default output committer for Parquet: org.apache.parquet.hadoop.ParquetOutputCommitter
+25/06/13 14:24:24 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+25/06/13 14:24:24 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+25/06/13 14:24:24 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+25/06/13 14:24:24 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+25/06/13 14:24:24 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+25/06/13 14:24:24 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+25/06/13 14:24:24 INFO CodeGenerator: Code generated in 3.658916 ms
+25/06/13 14:24:24 INFO MemoryStore: Block broadcast_16 stored as values in memory (estimated size 376.0 B, free 433.4 MiB)
+25/06/13 14:24:24 INFO MemoryStore: Block broadcast_16_piece0 stored as bytes in memory (estimated size 34.3 KiB, free 433.4 MiB)
+25/06/13 14:24:24 INFO BlockManagerInfo: Added broadcast_16_piece0 in memory on 10.60.152.121:64835 (size: 34.3 KiB, free: 433.9 MiB)
+25/06/13 14:24:24 INFO SparkContext: Created broadcast 16 from parquet at ScalaApp.scala:47
+25/06/13 14:24:24 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+25/06/13 14:24:24 INFO SparkContext: Starting job: parquet at ScalaApp.scala:47
+25/06/13 14:24:24 INFO DAGScheduler: Got job 10 (parquet at ScalaApp.scala:47) with 1 output partitions
+25/06/13 14:24:24 INFO DAGScheduler: Final stage: ResultStage 15 (parquet at ScalaApp.scala:47)
+25/06/13 14:24:24 INFO DAGScheduler: Parents of final stage: List()
+25/06/13 14:24:24 INFO DAGScheduler: Missing parents: List()
+25/06/13 14:24:24 INFO DAGScheduler: Submitting ResultStage 15 (MapPartitionsRDD[42] at parquet at ScalaApp.scala:47), which has no missing parents
+25/06/13 14:24:24 INFO MemoryStore: Block broadcast_17 stored as values in memory (estimated size 219.4 KiB, free 433.2 MiB)
+25/06/13 14:24:24 INFO MemoryStore: Block broadcast_17_piece0 stored as bytes in memory (estimated size 78.9 KiB, free 433.1 MiB)
+25/06/13 14:24:24 INFO BlockManagerInfo: Added broadcast_17_piece0 in memory on 10.60.152.121:64835 (size: 78.9 KiB, free: 433.9 MiB)
+25/06/13 14:24:24 INFO SparkContext: Created broadcast 17 from broadcast at DAGScheduler.scala:1580
+25/06/13 14:24:24 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 15 (MapPartitionsRDD[42] at parquet at ScalaApp.scala:47) (first 15 tasks are for partitions Vector(0))
+25/06/13 14:24:24 INFO TaskSchedulerImpl: Adding task set 15.0 with 1 tasks resource profile 0
+25/06/13 14:24:24 INFO TaskSetManager: Starting task 0.0 in stage 15.0 (TID 10) (10.60.152.121, executor driver, partition 0, PROCESS_LOCAL, 8293 bytes) 
+25/06/13 14:24:24 INFO Executor: Running task 0.0 in stage 15.0 (TID 10)
+25/06/13 14:24:24 INFO CodeGenerator: Code generated in 2.856166 ms
+25/06/13 14:24:24 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+25/06/13 14:24:24 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+25/06/13 14:24:24 INFO SQLHadoopMapReduceCommitProtocol: Using user defined output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+25/06/13 14:24:24 INFO FileOutputCommitter: File Output Committer Algorithm version is 1
+25/06/13 14:24:24 INFO FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+25/06/13 14:24:24 INFO SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.parquet.hadoop.ParquetOutputCommitter
+25/06/13 14:24:24 INFO CodecConfig: Compression: SNAPPY
+25/06/13 14:24:24 INFO CodecConfig: Compression: SNAPPY
+25/06/13 14:24:24 INFO ParquetOutputFormat: ParquetRecordWriter [block size: 134217728b, row group padding size: 8388608b, validating: false]
+25/06/13 14:24:24 INFO ParquetWriteSupport: Initialized Parquet WriteSupport with Catalyst schema:
+{
+  "type" : "struct",
+  "fields" : [ {
+    "name" : "ID_Transaction",
+    "type" : "integer",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "Date",
+    "type" : "date",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "Produit",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "Catégorie",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "Quantité",
+    "type" : "integer",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "Prix_Unitaire",
+    "type" : "double",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "Revenu_Total",
+    "type" : "double",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "Région",
+    "type" : "string",
+    "nullable" : true,
+    "metadata" : { }
+  }, {
+    "name" : "Client_ID",
+    "type" : "integer",
+    "nullable" : true,
+    "metadata" : { }
+  } ]
+}
+and corresponding Parquet message type:
+message spark_schema {
+  optional int32 ID_Transaction;
+  optional int32 Date (DATE);
+  optional binary Produit (STRING);
+  optional binary Catégorie (STRING);
+  optional int32 Quantité;
+  optional double Prix_Unitaire;
+  optional double Revenu_Total;
+  optional binary Région (STRING);
+  optional int32 Client_ID;
+}
+
+       
+25/06/13 14:24:24 INFO FileScanRDD: Reading File path: file:///Users/hich/Desktop/Bureau%20-%20MacbookAir%20HICHAM/PRO/GIT/epsi-spark-tp-revision/data/ventes_fictives.csv, range: 0-6197, partition values: [empty row]
+25/06/13 14:24:24 INFO FileOutputCommitter: Saved output of task 'attempt_202506131424241746233839431102232_0015_m_000000_10' to file:/Users/hich/Desktop/Bureau - MacbookAir HICHAM/PRO/GIT/epsi-spark-tp-revision/output/ventes_filtrees/_temporary/0/task_202506131424241746233839431102232_0015_m_000000
+25/06/13 14:24:24 INFO SparkHadoopMapRedUtil: attempt_202506131424241746233839431102232_0015_m_000000_10: Committed. Elapsed time: 0 ms.
+25/06/13 14:24:24 INFO Executor: Finished task 0.0 in stage 15.0 (TID 10). 2583 bytes result sent to driver
+25/06/13 14:24:24 INFO TaskSetManager: Finished task 0.0 in stage 15.0 (TID 10) in 83 ms on 10.60.152.121 (executor driver) (1/1)
+25/06/13 14:24:24 INFO TaskSchedulerImpl: Removed TaskSet 15.0, whose tasks have all completed, from pool 
+25/06/13 14:24:24 INFO DAGScheduler: ResultStage 15 (parquet at ScalaApp.scala:47) finished in 0,095 s
+25/06/13 14:24:24 INFO DAGScheduler: Job 10 is finished. Cancelling potential speculative or zombie tasks for this job
+25/06/13 14:24:24 INFO TaskSchedulerImpl: Killing all running tasks in stage 15: Stage finished
+25/06/13 14:24:24 INFO DAGScheduler: Job 10 finished: parquet at ScalaApp.scala:47, took 0,095620 s
+25/06/13 14:24:24 INFO FileFormatWriter: Start to commit write Job f9cd9288-0aea-4ab0-bd68-e59979cfe5d3.
+25/06/13 14:24:24 INFO FileFormatWriter: Write Job f9cd9288-0aea-4ab0-bd68-e59979cfe5d3 committed. Elapsed time: 12 ms.
+25/06/13 14:24:24 INFO FileFormatWriter: Finished processing stats for write job f9cd9288-0aea-4ab0-bd68-e59979cfe5d3.
+Filtered DataFrame saved in Parquet format at: output/ventes_filtrees
+25/06/13 14:24:24 INFO SparkContext: SparkContext is stopping with exitCode 0.
+25/06/13 14:24:24 INFO SparkUI: Stopped Spark web UI at http://10.60.152.121:4040
+25/06/13 14:24:24 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+25/06/13 14:24:24 INFO MemoryStore: MemoryStore cleared
+25/06/13 14:24:24 INFO BlockManager: BlockManager stopped
+25/06/13 14:24:24 INFO BlockManagerMaster: BlockManagerMaster stopped
+25/06/13 14:24:24 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+25/06/13 14:24:24 INFO SparkContext: Successfully stopped SparkContext
+[success] Total time: 5 s, completed 13 juin 2025, 14:24:24
+25/06/13 14:24:24 INFO ShutdownHookManager: Shutdown hook called
+25/06/13 14:24:24 INFO ShutdownHookManager: Deleting directory /private/var/folders/sp/w9p124nd6jb9srzf94f0v2q80000gn/T/spark-346d1848-0626-4304-ba34-b0cd6a9b0366
+25/06/13 14:24:24 ERROR Configuration: error parsing conf core-default.xml
+java.nio.file.NoSuchFileException: /Users/hich/Desktop/Bureau - MacbookAir HICHAM/PRO/GIT/epsi-spark-tp-revision/target/bg-jobs/sbt_e76266a6/target/f00c23d6/359669fc/hadoop-client-api-3.3.4.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1432)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:717)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:346)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:103)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:72)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:168)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.getOrCreate(JarFileFactory.java:91)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:132)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:175)
+	at org.apache.hadoop.conf.Configuration.parse(Configuration.java:3009)
+	at org.apache.hadoop.conf.Configuration.getStreamReader(Configuration.java:3105)
+	at org.apache.hadoop.conf.Configuration.loadResource(Configuration.java:3063)
+	at org.apache.hadoop.conf.Configuration.loadResources(Configuration.java:3036)
+	at org.apache.hadoop.conf.Configuration.loadProps(Configuration.java:2914)
+	at org.apache.hadoop.conf.Configuration.getProps(Configuration.java:2896)
+	at org.apache.hadoop.conf.Configuration.get(Configuration.java:1246)
+	at org.apache.hadoop.conf.Configuration.getTimeDuration(Configuration.java:1863)
+	at org.apache.hadoop.conf.Configuration.getTimeDuration(Configuration.java:1840)
+	at org.apache.hadoop.util.ShutdownHookManager.getShutdownTimeout(ShutdownHookManager.java:183)
+	at org.apache.hadoop.util.ShutdownHookManager.shutdownExecutor(ShutdownHookManager.java:145)
+	at org.apache.hadoop.util.ShutdownHookManager.access$300(ShutdownHookManager.java:65)
+	at org.apache.hadoop.util.ShutdownHookManager$1.run(ShutdownHookManager.java:102)
+Exception in thread "Thread-1" java.lang.RuntimeException: java.nio.file.NoSuchFileException: /Users/hich/Desktop/Bureau - MacbookAir HICHAM/PRO/GIT/epsi-spark-tp-revision/target/bg-jobs/sbt_e76266a6/target/f00c23d6/359669fc/hadoop-client-api-3.3.4.jar
+	at org.apache.hadoop.conf.Configuration.loadResource(Configuration.java:3089)
+	at org.apache.hadoop.conf.Configuration.loadResources(Configuration.java:3036)
+	at org.apache.hadoop.conf.Configuration.loadProps(Configuration.java:2914)
+	at org.apache.hadoop.conf.Configuration.getProps(Configuration.java:2896)
+	at org.apache.hadoop.conf.Configuration.get(Configuration.java:1246)
+	at org.apache.hadoop.conf.Configuration.getTimeDuration(Configuration.java:1863)
+	at org.apache.hadoop.conf.Configuration.getTimeDuration(Configuration.java:1840)
+	at org.apache.hadoop.util.ShutdownHookManager.getShutdownTimeout(ShutdownHookManager.java:183)
+	at org.apache.hadoop.util.ShutdownHookManager.shutdownExecutor(ShutdownHookManager.java:145)
+	at org.apache.hadoop.util.ShutdownHookManager.access$300(ShutdownHookManager.java:65)
+	at org.apache.hadoop.util.ShutdownHookManager$1.run(ShutdownHookManager.java:102)
+Caused by: java.nio.file.NoSuchFileException: /Users/hich/Desktop/Bureau - MacbookAir HICHAM/PRO/GIT/epsi-spark-tp-revision/target/bg-jobs/sbt_e76266a6/target/f00c23d6/359669fc/hadoop-client-api-3.3.4.jar
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileAttributeViews$Basic.readAttributes(UnixFileAttributeViews.java:55)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.readAttributes(UnixFileSystemProvider.java:148)
+	at java.base/java.nio.file.Files.readAttributes(Files.java:1851)
+	at java.base/java.util.zip.ZipFile$Source.get(ZipFile.java:1432)
+	at java.base/java.util.zip.ZipFile$CleanableResource.<init>(ZipFile.java:717)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:251)
+	at java.base/java.util.zip.ZipFile.<init>(ZipFile.java:180)
+	at java.base/java.util.jar.JarFile.<init>(JarFile.java:346)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.<init>(URLJarFile.java:103)
+	at java.base/sun.net.www.protocol.jar.URLJarFile.getJarFile(URLJarFile.java:72)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.get(JarFileFactory.java:168)
+	at java.base/sun.net.www.protocol.jar.JarFileFactory.getOrCreate(JarFileFactory.java:91)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.connect(JarURLConnection.java:132)
+	at java.base/sun.net.www.protocol.jar.JarURLConnection.getInputStream(JarURLConnection.java:175)
+	at org.apache.hadoop.conf.Configuration.parse(Configuration.java:3009)
+	at org.apache.hadoop.conf.Configuration.getStreamReader(Configuration.java:3105)
+	at org.apache.hadoop.conf.Configuration.loadResource(Configuration.java:3063)
+	... 10 more
