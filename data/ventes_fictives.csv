@@ -1,0 +1,101 @@
+ID_Transaction,Date,Produit,Catégorie,Quantité,Prix_Unitaire,Revenu_Total,Région,Client_ID
+1,2024-01-01,Laptop A,Électronique,5,1200.00,6000.00,Nord,101
+2,2024-01-02,Souris B,Électronique,20,25.00,500.00,Sud,102
+3,2024-01-03,Clavier C,Électronique,10,75.00,750.00,Est,103
+4,2024-01-04,Moniteur D,Électronique,3,300.00,900.00,Ouest,104
+5,2024-01-05,Smartphone E,Électronique,8,800.00,6400.00,Nord,105
+6,2024-01-06,Tablette F,Électronique,7,450.00,3150.00,Sud,106
+7,2024-01-07,Casque G,Électronique,15,100.00,1500.00,Est,107
+8,2024-01-08,Haut-parleur H,Électronique,12,80.00,960.00,Ouest,108
+9,2024-01-09,Webcam I,Électronique,25,40.00,1000.00,Nord,109
+10,2024-01-10,Imprimante J,Électronique,2,250.00,500.00,Sud,110
+11,2024-01-11,Livre de Cuisine,Livres,50,15.00,750.00,Est,111
+12,2024-01-12,Roman Sci-Fi,Livres,30,20.00,600.00,Ouest,112
+13,2024-01-13,Manuel Python,Livres,10,45.00,450.00,Nord,113
+14,2024-01-14,Aspirateur K,Maison,2,150.00,300.00,Sud,114
+15,2024-01-15,Cafetière L,Maison,4,70.00,280.00,Est,115
+16,2024-01-16,Mixeur M,Maison,6,50.00,300.00,Ouest,116
+17,2024-01-17,Lampe N,Maison,20,20.00,400.00,Nord,117
+18,2024-01-18,Serviette de Bain,Maison,30,10.00,300.00,Sud,118
+19,2024-01-19,Chemise O,Vêtements,15,30.00,450.00,Est,119
+20,2024-01-20,Pantalon P,Vêtements,10,50.00,500.00,Ouest,120
+21,2024-01-21,Robe Q,Vêtements,8,60.00,480.00,Nord,121
+22,2024-01-22,T-shirt R,Vêtements,40,12.00,480.00,Sud,122
+23,2024-01-23,Chaussures S,Vêtements,5,80.00,400.00,Est,123
+24,2024-01-24,Lait UHT,Alimentation,100,1.50,150.00,Ouest,124
+25,2024-01-25,Pain de Mie,Alimentation,50,2.00,100.00,Nord,125
+26,2024-01-26,Jus d'Orange,Alimentation,30,3.00,90.00,Sud,126
+27,2024-01-27,Céréales,Alimentation,20,4.00,80.00,Est,127
+28,2024-01-28,Chips,Alimentation,60,2.50,150.00,Ouest,128
+29,2024-01-29,Baskets,Sport,10,70.00,700.00,Nord,129
+30,2024-01-30,Ballon de Foot,Sport,15,25.00,375.00,Sud,130
+31,2024-02-01,Raquette de Tennis,Sport,5,80.00,400.00,Est,131
+32,2024-02-02,Gourde,Sport,25,10.00,250.00,Ouest,132
+33,2024-02-03,Tapis de Yoga,Sport,8,35.00,280.00,Nord,133
+34,2024-02-04,Casque VR,Électronique,3,400.00,1200.00,Sud,134
+35,2024-02-05,Enceinte Bluetooth,Électronique,10,90.00,900.00,Est,135
+36,2024-02-06,Batterie Externe,Électronique,30,20.00,600.00,Ouest,136
+37,2024-02-07,Cadre Photo Numérique,Électronique,5,60.00,300.00,Nord,137
+38,2024-02-08,Disque Dur Externe,Électronique,7,80.00,560.00,Sud,138
+39,2024-02-09,Routeur Wifi,Électronique,4,110.00,440.00,Est,139
+40,2024-02-10,Smartwatch,Électronique,6,150.00,900.00,Ouest,140
+41,2024-02-11,Livre d'Histoire,Livres,40,18.00,720.00,Nord,141
+42,2024-02-12,Livre de Poésie,Livres,25,12.00,300.00,Sud,142
+43,2024-02-13,Dictionnaire,Livres,8,30.00,240.00,Est,143
+44,2024-02-14,Machine à laver,Maison,1,500.00,500.00,Ouest,144
+45,2024-02-15,Réfrigérateur,Maison,1,700.00,700.00,Nord,145
+46,2024-02-16,Four Micro-ondes,Maison,3,100.00,300.00,Sud,146
+47,2024-02-17,Sèche-cheveux,Maison,10,30.00,300.00,Est,147
+48,2024-02-18,Fer à repasser,Maison,12,25.00,300.00,Ouest,148
+49,2024-02-19,Polo,Vêtements,20,35.00,700.00,Nord,149
+50,2024-02-20,Jupe,Vêtements,15,40.00,600.00,Sud,150
+51,2024-03-01,Écouteurs,Électronique,20,50.00,1000.00,Nord,101
+52,2024-03-02,Chargeur Portable,Électronique,40,15.00,600.00,Sud,102
+53,2024-03-03,Câble USB,Électronique,50,5.00,250.00,Est,103
+54,2024-03-04,Souris Gamer,Électronique,8,60.00,480.00,Ouest,104
+55,2024-03-05,Manette de Jeu,Électronique,10,40.00,400.00,Nord,105
+56,2024-03-06,Livre de Cuisine Végétarienne,Livres,30,22.00,660.00,Sud,106
+57,2024-03-07,Livre pour Enfants,Livres,50,10.00,500.00,Est,107
+58,2024-03-08,Dictionnaire de poche,Livres,15,18.00,270.00,Ouest,108
+59,2024-03-09,Robot Aspirateur,Maison,1,350.00,350.00,Nord,109
+60,2024-03-10,Machine à café Nespresso,Maison,2,120.00,240.00,Sud,110
+61,2024-03-11,Grille-pain,Maison,7,30.00,210.00,Est,111
+62,2024-03-12,Bouilloire Électrique,Maison,8,25.00,200.00,Ouest,112
+63,2024-03-13,Sweatshirt,Vêtements,25,45.00,1125.00,Nord,113
+64,2024-03-14,Short,Vêtements,30,20.00,600.00,Sud,114
+65,2024-03-15,Chaussettes,Vêtements,100,5.00,500.00,Est,115
+66,2024-03-16,Blouson,Vêtements,5,90.00,450.00,Ouest,116
+67,2024-03-17,Céréales Bio,Alimentation,70,3.50,245.00,Nord,117
+68,2024-03-18,Yaourt Nature,Alimentation,120,1.00,120.00,Sud,118
+69,2024-03-19,Pâtes,Alimentation,80,1.80,144.00,Est,119
+70,2024-03-20,Riz,Alimentation,90,2.20,198.00,Ouest,120
+71,2024-03-21,Barre Protéinée,Sport,30,2.50,75.00,Nord,121
+72,2024-03-22,Shaker,Sport,20,8.00,160.00,Sud,122
+73,2024-03-23,Haltères,Sport,2,50.00,100.00,Est,123
+74,2024-03-24,Tapis de course,Sport,1,800.00,800.00,Ouest,124
+75,2024-04-01,Carte Graphique,Électronique,2,600.00,1200.00,Nord,125
+76,2024-04-02,Processeur,Électronique,3,350.00,1050.00,Sud,126
+77,2024-04-03,RAM,Électronique,5,80.00,400.00,Est,127
+78,2024-04-04,SSD,Électronique,4,120.00,480.00,Ouest,128
+79,2024-04-05,Alimentation PC,Électronique,6,70.00,420.00,Nord,129
+80,2024-04-06,Boîtier PC,Électronique,3,90.00,270.00,Sud,130
+81,2024-04-07,BD,Livres,40,15.00,600.00,Est,131
+82,2024-04-08,Magazine,Livres,60,5.00,300.00,Ouest,132
+83,2024-04-09,Encyclopédie,Livres,2,100.00,200.00,Nord,133
+84,2024-04-10,Planche à découper,Maison,15,10.00,150.00,Sud,134
+85,2024-04-11,Couteau de cuisine,Maison,10,20.00,200.00,Est,135
+86,2024-04-12,Poêle,Maison,5,40.00,200.00,Ouest,136
+87,2024-04-13,Casserole,Maison,7,30.00,210.00,Nord,137
+88,2024-04-14,Torchons,Maison,20,5.00,100.00,Sud,138
+89,2024-04-15,Veste,Vêtements,10,70.00,700.00,Est,139
+90,2024-04-16,Echarpe,Vêtements,20,20.00,400.00,Ouest,140
+91,2024-04-17,Gants,Vêtements,30,15.00,450.00,Nord,141
+92,2024-04-18,Bonnet,Vêtements,25,10.00,250.00,Sud,142
+93,2024-04-19,Jambon,Alimentation,50,5.00,250.00,Est,143
+94,2024-04-20,Fromage,Alimentation,40,6.00,240.00,Ouest,144
+95,2024-04-21,Oeufs,Alimentation,80,3.00,240.00,Nord,145
+96,2024-04-22,Pommes,Alimentation,100,2.00,200.00,Sud,146
+97,2024-04-23,Bananes,Alimentation,90,1.80,162.00,Est,147
+98,2024-04-24,Poires,Alimentation,70,2.50,175.00,Ouest,148
+99,2024-04-25,Orange,Alimentation,110,2.00,220.00,Nord,149
+100,2024-04-26,Raisins,Alimentation,60,3.00,180.00,Sud,150
